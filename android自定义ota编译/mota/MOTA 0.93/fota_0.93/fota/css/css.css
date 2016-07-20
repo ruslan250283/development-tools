@@ -1,0 +1,153 @@
+HTML {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+BODY {
+	background: #FFF;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+A {
+	outline: none;
+}
+
+#header {
+	height: 30px;
+	background: url("../pic/logo.gif");
+	border-bottom: 1px #8FBAF4 solid;
+}
+
+.fon {
+	font-size: 11px;
+	font-style: italic;
+	font-family: sans-serif;
+}
+
+.fon1 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #494949;
+}
+
+.fon2 {
+	font-weight: bold;
+	font-family: "Arial";
+	color: #3b5998;
+	font-size: 14px;
+}
+
+.fon3 {
+	font-weight: bold;
+	font-family: "Times New Roman";
+	font-size: 12px;
+	color: #3b5998;
+}
+
+.fon4 {
+	font-weight: bold;
+	font-family: "Times New Roman";
+	font-size: 15px;
+	color: #3b5998;
+}
+
+.fon5 {
+	font-size: 12px;
+}
+
+.fon6 {
+	font-size: 13px;
+}
+
+.fon7 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #595959;
+	padding:15px; 
+    text-align:center;
+}
+
+.fon8 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #3B5998;
+	
+}
+
+.break {
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow: hidden;
+	white-space: normal;
+}
+
+.outdivborder {
+	border: 1px solid #FFCC00;
+	position: relative;
+	left: 4px;
+	top: 4px;
+	height: 144px;
+	width: 904px;
+	background-color: #FFCC00;
+}
+
+.divborder {
+	border: 1px solid #FFCC00;
+	height: 140px;
+	width: 900px;
+	position: relative;
+	left: -4px;
+	top: -4px;
+	background-color: #FFFFFF;
+}
+
+.outdiv {
+	border: 1px solid #FFCC00;
+	position: relative;
+	left: 4px;
+	top: 4px;
+	font-size: 13px;
+	background-color: #FFCC00;
+}
+
+.innerdiv {
+	border: 1px solid #FFCC00;
+	font-size: 13px;
+	position: relative;
+	left: -4px;
+	top: -4px;
+	background-color: #FFFFFF;
+}
+
+.out {
+	border: 1px solid #DDB000;
+	position: relative;
+	left: 4px;
+	top: 4px;
+	font-size: 13px;
+	background-color: #FFCC00;
+}
+
+.inner {
+	border: 1px solid #FFCC00;
+	font-size: 13px;
+	position: relative;
+	left: -16px;
+	top: -16px;
+	background-color: #FFFFFF;
+}
+
+.change {
+    width: 100%;
+    height: 600px;
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,
+        startColorStr=#b8c4cb, endColorStr=#f6f6f8); /*IE*/
+    background: -moz-linear-gradient(top, #b8c4cb, #f6f6f8); 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b8c4cb),
+        to(#f6f6f8)); 
+        
+}
+
+}
