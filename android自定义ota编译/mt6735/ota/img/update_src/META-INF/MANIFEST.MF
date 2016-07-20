@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: system.patch.dat
+SHA1-Digest: gKSgWhuCyd2hphr1Rf67eQMnDlM=
+
+Name: type.txt
+SHA1-Digest: tlifxqsNyCzxIJnRwtQKuZToQQw=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: fuZMKkrkUjsqvThG9vY/AelWn1A=
+
+Name: mobicore.bin
+SHA1-Digest: Q5gX3uAImW7TOuKcQQQHpyBW0P4=
+
+Name: scatter.txt
+SHA1-Digest: h4HU/EPKg113Lgc0tp4cB8Xu10k=
+
+Name: META-INF/com/android/otacert
+SHA1-Digest: 71Q6Rn2DDZl1zPDVaaeEHItd+Yg=
+
+Name: META-INF/com/android/metadata
+SHA1-Digest: Vc0wiOqTVqReEdX0zJK5jlu8UxQ=
+
+Name: SEC_VER.txt
+SHA1-Digest: Z1ZhjxvlANtqHhff4Oapv50uoaE=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: 2EbPkp6y6RDZ3eqw/VT3Av5pYWA=
+
+Name: system.transfer.list
+SHA1-Digest: KInGjNlE9LjZr2/TYae9AfDks0g=
+
+Name: system.new.dat
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
