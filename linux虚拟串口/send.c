@@ -14,7 +14,7 @@
       int open_serial()
       {
             //这里的/dev/pts/1是使用mkptych.py虚拟的两个串口名字之一
-            fd = open("/dev/pts/13", O_RDWR | O_NOCTTY | O_NONBLOCK);
+            fd = open("/dev/pts/12", O_RDWR | O_NOCTTY | O_NONBLOCK);
             if(fd == -1)
             {
                   perror("open serial port error!\n");
