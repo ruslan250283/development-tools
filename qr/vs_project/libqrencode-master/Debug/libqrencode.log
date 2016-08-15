@@ -1,0 +1,28 @@
+﻿生成启动时间为 2016-08-13 13:38:30。
+     1>项目“e:\wang\代码\c语言二维码\libqrencode-master\libqrencode.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visulstudio2015enterprise\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D HAVE_CONFIG_H /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt src\test.cpp
+         test.cpp
+     1>src\test.cpp(74): warning C4244: “参数”: 从“double”转换到“png_uint_32”，可能丢失数据
+     1>src\test.cpp(41): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>src\test.cpp(27): warning C4101: “bit”: 未引用的局部变量
+     1>src\test.cpp(26): warning C4101: “q”: 未引用的局部变量
+     1>src\test.cpp(25): warning C4101: “alpha_values”: 未引用的局部变量
+       Link:
+         D:\visulstudio2015enterprise\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\wang\代码\c语言二维码\libqrencode-master\Debug\libqrencode.exe" /INCREMENTAL /NOLOGO /LIBPATH:".\lpng1615\projects\vstudio\Release Library\\" libpng16.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\wang\代码\c语言二维码\libqrencode-master\Debug\libqrencode.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\wang\代码\c语言二维码\libqrencode-master\Debug\libqrencode.lib" /MACHINE:X86 Debug\bitstream.obj
+         Debug\mask.obj
+         Debug\mmask.obj
+         Debug\mqrspec.obj
+         Debug\test.obj
+         Debug\qrencode.obj
+         Debug\qrinput.obj
+         Debug\qrspec.obj
+         Debug\rsecc.obj
+         Debug\split.obj
+         libqrencode.vcxproj -> E:\wang\代码\c语言二维码\libqrencode-master\Debug\libqrencode.exe
+     1>已完成生成项目“e:\wang\代码\c语言二维码\libqrencode-master\libqrencode.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.53

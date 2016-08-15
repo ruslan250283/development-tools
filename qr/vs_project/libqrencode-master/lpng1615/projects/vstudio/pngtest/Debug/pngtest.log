@@ -1,0 +1,42 @@
+﻿生成启动时间为 2016-08-13 13:26:30。
+     1>项目“e:\wang\代码\c语言二维码\libqrencode-master\lpng1615\projects\vstudio\pngtest\pngtest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visulstudio2015enterprise\VC\bin\CL.exe /c /I"..\..\..\..\zlib-1.2.8" /I..\..\..\scripts /Zi /nologo /W4 /WX /Od /Oi /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /GF /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /fp:except- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /FR"Debug\\" /Gd /TC /wd4996 /analyze- /errorReport:prompt ..\..\..\pngtest.c
+         pngtest.c
+       Link:
+         D:\visulstudio2015enterprise\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\wang\代码\c语言二维码\libqrencode-master\lpng1615\projects\vstudio\Debug\pngtest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\wang\代码\c语言二维码\libqrencode-master\lpng1615\projects\vstudio\Debug\\" libpng16.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\wang\代码\c语言二维码\libqrencode-master\lpng1615\projects\vstudio\Debug\pngtest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\wang\代码\c语言二维码\libqrencode-master\lpng1615\projects\vstudio\Debug\pngtest.lib" /MACHINE:X86 /SAFESEH Debug\pngtest.obj
+         pngtest.vcxproj -> E:\wang\代码\c语言二维码\libqrencode-master\lpng1615\projects\vstudio\Debug\pngtest.exe
+       BscMake:
+         D:\visulstudio2015enterprise\VC\bin\bscmake.exe /nologo /o"E:\wang\代码\c语言二维码\libqrencode-master\lpng1615\projects\vstudio\Debug\pngtest.bsc" Debug\pngtest.sbr
+       CustomBuildStep:
+         "E:\wang\代码\c语言二维码\libqrencode-master\lpng1615\projects\vstudio\Debug\pngtest.exe" ..\..\..\pngtest.png "Debug\pngout.png"
+         :VCEnd
+         
+          Testing libpng version 1.6.15
+            with zlib   version 1.2.8
+         libpng version 1.6.15 - November 20, 2014      Copyright (c) 1998-2014 Glenn Randers-Pehrson      Copyright (c) 1996-1997 Andreas Dilger      Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc. library (10615): libpng version 1.6.15 - November 20, 2014
+          pngtest (10615): libpng version 1.6.15 - November 20, 2014
+         
+          Testing ..\..\..\pngtest.png:
+          Pass 0: rwrwrwrwrwrwrwrwrw
+          Pass 1: rwrwrwrwrwrwrwrwrw
+          Pass 2: rwrwrwrwrwrwrwrw
+          Pass 3: rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+          Pass 4: rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+          Pass 5: rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+                  rwrwrwrw
+          Pass 6: rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+                  rwrwrwrwrw
+          PASS (9782 zero samples)
+          Filter 0 was used 21 times
+          Filter 1 was used 15 times
+          Filter 2 was used 52 times
+          Filter 3 was used 10 times
+          Filter 4 was used 33 times
+          tIME = 7 Jun 1996 17:58:08 +0000
+          libpng passes test
+     1>已完成生成项目“e:\wang\代码\c语言二维码\libqrencode-master\lpng1615\projects\vstudio\pngtest\pngtest.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.96
