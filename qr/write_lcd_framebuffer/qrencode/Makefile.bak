@@ -1,0 +1,33 @@
+CROSSCOMPILE :=arm-linux-
+
+CFLAGS 	:= -Wall -O2 -c -g
+CFLAGS  += -I$(PWD)
+
+LDFLAGS := -lm
+
+CC 	:= $(CROSSCOMPILE)gcc
+LD 	:= $(CROSSCOMPILE)ld
+
+OBJS := main.o                        \
+	      qrencode.o                    \
+			  qrinput.o        \
+			  split.o          \
+			  bitstream.o     \
+			  qrspec.o         \
+			  mqrspec.o        \
+			  rscode.o        \
+			  mask.o          \
+			  mmask.o       \
+			  CreatQr.o
+			
+
+all: $(OBJS)
+	$(CC) $(LDFLAGS) -o qrencode $^
+
+clean:
+	rm -f qrencode
+	rm -f $(OBJS)
+
+%.o:%.c
+	$(CC) $(CFLAGS) -o $@ $<
+
